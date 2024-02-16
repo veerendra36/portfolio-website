@@ -7,6 +7,7 @@ import Link from "next/link";
 import thoughtThesis from "@/assets/thoughtThesisDemo.png.jpg";
 import itasks from "@/assets/itasks.jpg";
 import codeQuest from "@/assets/codeQuest.jpg";
+import { PinContainer } from "@/components/ui/3d-animated";
 
 export const metadata: Metadata = {
   title: "Projects",
@@ -19,12 +20,17 @@ export default function Page() {
       <H1>Projects</H1>
       <section className="space-y-3">
         <H2>Code Quest</H2>
-        <Image
-          src={codeQuest}
-          alt="Thought Thesis Demo"
-          className="rounded-md"
-        />
-        <p className="text-justify">
+        <PinContainer title="Code Quest" href="https://twitter.com/mannupaaji">
+          <div className="flex h-[20rem] w-[45rem] basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 ">
+            <Image
+              src={codeQuest}
+              alt="Thought Thesis Demo"
+              className="rounded-md"
+            />
+          </div>
+        </PinContainer>
+        <br></br>
+        <p className="top-3 mt-5 pt-5 text-justify">
           Introducing a{" "}
           <strong>community-driven platform designed for students</strong> and
           developers alike to ask and answer programming questions, share
@@ -74,12 +80,20 @@ export default function Page() {
       <hr className="border-muted" />
       <section className="space-y-3">
         <H2>Thought Thesis</H2>
-        <Image
-          src={thoughtThesis}
-          alt="Thought Thesis Demo"
-          className="rounded-md"
-        />
-        <p className="text-justify">
+        <PinContainer
+          title="Thought Thesis"
+          href="https://twitter.com/mannupaaji"
+        >
+          <div className="flex h-[20rem] w-[45rem] basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 ">
+            <Image
+              src={thoughtThesis}
+              alt="Thought Thesis Demo"
+              className="rounded-md"
+            />
+          </div>
+        </PinContainer>
+        <br></br>
+        <p className="top-5 mt-5 pt-5 text-justify">
           I have developed an intelligent note-taking application that
           seamlessly integrates Artificial Intelligence. This application was
           built using a diverse range of cutting-edge technologies. It utilizes{" "}
@@ -120,8 +134,17 @@ export default function Page() {
       <hr className="border-muted" />
       <section className="space-y-3">
         <H2>i Tasks</H2>
-        <Image src={itasks} alt="Thought Thesis Demo" className="rounded-md" />
-        <p className="text-justify">
+        <PinContainer title="i Tasks" href="https://i-tasks.vercel.app/">
+          <div className="flex h-[20rem] w-[45rem] basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 ">
+            <Image
+              src={itasks}
+              alt="Thought Thesis Demo"
+              className="rounded-md"
+            />
+          </div>
+        </PinContainer>
+        <br></br>
+        <p className="top-3 mt-5 pt-5 text-justify">
           Boost your productivity with <strong>iTasks</strong>, a task
           management application designed to simplify task management and help
           you master your time effectively. This application is built using{" "}
