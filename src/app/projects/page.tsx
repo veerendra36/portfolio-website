@@ -205,7 +205,7 @@ export default function Page() {
           href="https://i-tasks.vercel.app/"
           className="text-primary hover:underline"
         >
-          Telugu News Classification Model
+          Drug Classification Model
         </a>
         .
       </section>

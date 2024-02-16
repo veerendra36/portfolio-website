@@ -1,9 +1,9 @@
-import bjj from "@/assets/bjj.jpg";
+import Skills from "@/components/skills";
+
 import { H1 } from "@/components/ui/H1";
 import { H2 } from "@/components/ui/H2";
+
 import { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About Me",
@@ -48,52 +48,7 @@ export default function Page() {
         </p>
       </section>
       <hr className="border-muted" />
-      <section className="space-y-3">
-        <H2>Skills</H2>
-        <p>
-          I&apos;m a full-stack web developer specializing in{" "}
-          <strong>React</strong>, <strong>Next.js</strong>, and{" "}
-          <strong>Node.js</strong>.
-        </p>
-        <p>
-          I also have experience with Android development but have stopped
-          working with it a few years ago. I prefer web development because you
-          can use a modern website on almost every device and reach the whole
-          world with it.
-        </p>
-      </section>
-      <hr className="border-muted" />
-      <section className="space-y-3">
-        <H2>Side projects</H2>
-        <p>
-          In my free time, I like to work on side projects to keep my skill
-          sharp and try out new tech. Here is a list of my current projects:{" "}
-        </p>
-        <ul className="list-inside list-disc">
-          <li>
-            <a
-              href="https://smartdiary.co"
-              className="text-primary hover:underline"
-            >
-              SmartDiary.co
-            </a>{" "}
-            - An AI-powered journaling app
-          </li>
-          <li>
-            <Link
-              href="https://books-ai.app"
-              className="text-primary hover:underline"
-            >
-              Books-AI.app
-            </Link>{" "}
-            - An AI book recommendation app
-          </li>
-        </ul>
-      </section>
-      <hr className="border-muted" />
-      <section className="space-y-3">
-        <H2>Hobbies</H2>
-      </section>
+      <Skills />
     </section>
   );
 }
