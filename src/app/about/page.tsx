@@ -7,7 +7,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About Me",
-  description: "Learn more about Florian Walther and his work.",
+  description: "Learn more about Veerendra Beerala and his work.",
 };
 
 export default function Page() {
