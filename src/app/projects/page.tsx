@@ -70,7 +70,7 @@ export default function Page() {
         </p>{" "}
         Here is the live demo..{" "}
         <a
-          href="https://www.youtube.com/codinginflow"
+          href=""
           className="text-primary hover:underline"
         >
           Code Quest
@@ -124,7 +124,7 @@ export default function Page() {
         </p>{" "}
         Here is the live demo..{" "}
         <a
-          href="https://www.youtube.com/codinginflow"
+          href=""
           className="text-primary hover:underline"
         >
           Thought Thesis
