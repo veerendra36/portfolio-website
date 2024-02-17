@@ -17,5 +17,7 @@ The portfolio includes various projects ranging from full-stack web applications
 The research section of the portfolio highlights my work in the field of Deep Learning and Machine Learning. It includes research papers published in conferences like IEEE and OCIT2023.
 
 Here is the live demo of my protfolio website, Feel free to access it, you can ask your queries to AI chat for more clarifications. 
-link: https://portfolio-website-dusky-tau.vercel.app/
+
+
+link: https://portfolio-website-2s5h.vercel.app/
 
