@@ -70,7 +70,7 @@ export default function Page() {
         </p>{" "}
         Here is the live demo..{" "}
         <a
-          href="https://www.youtube.com/codinginflow"
+          href="https://github.com/veerendra36/CodeQuest"
           className="text-primary hover:underline"
         >
           Code Quest
@@ -82,7 +82,7 @@ export default function Page() {
         <H2>Thought Thesis</H2>
         <PinContainer
           title="Thought Thesis"
-          href="https://twitter.com/mannupaaji"
+          href=""
         >
           <div className="flex h-[20rem] w-[45rem] basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 ">
             <Image
@@ -124,7 +124,7 @@ export default function Page() {
         </p>{" "}
         Here is the live demo..{" "}
         <a
-          href="https://www.youtube.com/codinginflow"
+          href="https://thought-thesis-ai-chat-box-implementation-yogi.vercel.app/"
           className="text-primary hover:underline"
         >
           Thought Thesis
@@ -202,7 +202,7 @@ export default function Page() {
         </p>{" "}
         For more information please refer this repository{" "}
         <a
-          href="https://i-tasks.vercel.app/"
+          href="https://ieeexplore.ieee.org/abstract/document/10250585"
           className="text-primary hover:underline"
         >
           Telugu News Classification Model
@@ -239,7 +239,7 @@ export default function Page() {
         </p>{" "}
         For more information please refer this{" "}
         <a
-          href="https://ieeexplore.ieee.org/abstract/document/10250585"
+          href="https://ieeexplore.ieee.org/document/10430996"
           className="text-primary hover:underline"
         >
           Telugu News classification model
