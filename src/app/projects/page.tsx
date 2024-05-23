@@ -68,9 +68,9 @@ export default function Page() {
           not just academic but any kind of queries. The platform allows
           students to connect with each other, get help, and learn together.
         </p>{" "}
-        Here is the live demo..{" "}
+        Here is the figma design..{" "}
         <a
-          href="https://github.com/veerendra36/CodeQuest"
+          href="https://www.figma.com/design/cQl6aFYfzDibNvUcT596jl/Code-Quest?node-id=1%3A49&t=3CzqT08rQqAYWnte-1"
           className="text-primary hover:underline"
         >
           Code Quest
@@ -82,7 +82,7 @@ export default function Page() {
         <H2>Thought Thesis</H2>
         <PinContainer
           title="Thought Thesis"
-          href=""
+          href="https://twitter.com/mannupaaji"
         >
           <div className="flex h-[20rem] w-[45rem] basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 ">
             <Image
@@ -122,13 +122,6 @@ export default function Page() {
           note-taking, offering users an efficient and enjoyable way to organize
           their thoughts, ideas, and information.
         </p>{" "}
-        Here is the live demo..{" "}
-        <a
-          href="https://thought-thesis-ai-chat-box-implementation-yogi.vercel.app/"
-          className="text-primary hover:underline"
-        >
-          Thought Thesis
-        </a>
         .
       </section>
       <hr className="border-muted" />
@@ -205,7 +198,7 @@ export default function Page() {
           href="https://ieeexplore.ieee.org/abstract/document/10250585"
           className="text-primary hover:underline"
         >
-          Telugu News Classification Model
+          Drug Classification Model
         </a>
         .
       </section>
@@ -239,7 +232,7 @@ export default function Page() {
         </p>{" "}
         For more information please refer this{" "}
         <a
-          href="https://ieeexplore.ieee.org/document/10430996"
+          href="https://ieeexplore.ieee.org/abstract/document/10250585"
           className="text-primary hover:underline"
         >
           Telugu News classification model
