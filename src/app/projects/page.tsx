@@ -68,9 +68,9 @@ export default function Page() {
           not just academic but any kind of queries. The platform allows
           students to connect with each other, get help, and learn together.
         </p>{" "}
-        Here is the live demo..{" "}
+        Here is the figma design..{" "}
         <a
-          href=""
+          href="https://www.figma.com/design/cQl6aFYfzDibNvUcT596jl/Code-Quest?node-id=1%3A49&t=3CzqT08rQqAYWnte-1"
           className="text-primary hover:underline"
         >
           Code Quest
@@ -122,13 +122,6 @@ export default function Page() {
           note-taking, offering users an efficient and enjoyable way to organize
           their thoughts, ideas, and information.
         </p>{" "}
-        Here is the live demo..{" "}
-        <a
-          href=""
-          className="text-primary hover:underline"
-        >
-          Thought Thesis
-        </a>
         .
       </section>
       <hr className="border-muted" />
@@ -202,7 +195,7 @@ export default function Page() {
         </p>{" "}
         For more information please refer this repository{" "}
         <a
-          href="https://i-tasks.vercel.app/"
+          href="https://ieeexplore.ieee.org/abstract/document/10250585"
           className="text-primary hover:underline"
         >
           Drug Classification Model
